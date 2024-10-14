@@ -1,0 +1,145 @@
+.lux {
+    width: 100%;
+    height: auto;
+}
+body {
+    background-color:rgb(255, 255, 255) ;
+    margin: 0%;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.letrasbar {
+    display: inline-block;
+    margin-right: 30px;
+    height: 20px;
+}
+a {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.bar {
+    background-color: #000;
+    text-align: center;
+}
+.contactos{
+    background-color: #000;
+    color: #ffffff;
+    display: flow-root;
+}
+.whatsapp{
+    margin-left: 1060px;
+}
+.letrascontactos{
+    padding: 10px;
+}
+form{
+    padding: 10px;
+    margin: 10px;
+}
+.letrascontacto{
+    color: rgba(255, 255, 255, 0.813);
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.polos, .accesories {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    max-width: 1200px; 
+    margin: 0px; 
+}
+
+.polos div, .accesories div {
+    background-color: white;
+    border-radius: 8px; 
+    box-shadow: 0 10px 8px rgba(114, 109, 109, 0.419); 
+    margin: 40px; 
+    padding: 20px; 
+    text-align: center; 
+    width: 300px
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+p {
+    margin: 10px;
+}
+.shirt{
+    width: 150%;
+    height: auto;
+}
+button {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-radius: 8px;
+}
+.bol {
+    padding: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.bol button{
+    width: 250px;
+    height: 50px;
+    border-radius: 0%;
+    font-size: 20px;
+}
+.one {
+    text-align: left;
+    width: 800px;
+    height: 1000px;
+    padding: 0px;
+    box-shadow:0 1px 5px rgba(211, 210, 210, 0.419);
+}
+.two {
+    position: absolute;
+    text-align: left;
+    right: 0px;
+    top: 300px;
+    font-size: 30px;
+    padding: 20px;
+    line-height: 70px;
+}
+.three {
+    font-size: 20px;
+    line-height: 40px;
+    padding: 20px;
+}
+.tallas input {
+    background-color: #000;
+    color: #ffffff;
+    font-size: 15px;
+    display: none;
+}
+.forcar input{
+    background-color: #000;
+    color: #f0f0f0;
+    font-size: 15px;
+}
+label {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.talla-input:checked + .talla-label {
+    border-color: black;
+    background-color: #ddd;
+}
